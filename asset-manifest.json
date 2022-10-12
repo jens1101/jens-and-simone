@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jens-and-simone/static/css/main.76031048.css",
+    "main.js": "/jens-and-simone/static/js/main.94106d87.js",
+    "static/js/496.277dea3b.chunk.js": "/jens-and-simone/static/js/496.277dea3b.chunk.js",
+    "index.html": "/jens-and-simone/index.html",
+    "main.76031048.css.map": "/jens-and-simone/static/css/main.76031048.css.map",
+    "main.94106d87.js.map": "/jens-and-simone/static/js/main.94106d87.js.map",
+    "496.277dea3b.chunk.js.map": "/jens-and-simone/static/js/496.277dea3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76031048.css",
+    "static/js/main.94106d87.js"
+  ]
+}
