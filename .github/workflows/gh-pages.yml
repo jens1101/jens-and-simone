@@ -3,9 +3,9 @@ permissions:
   contents: write
 on:
   release:
-    types: [published]
+    types: [released]
 jobs:
-  release-please:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
