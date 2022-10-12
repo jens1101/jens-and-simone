@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/jens1101/jens-and-simone/compare/v1.1.0...v1.1.1) (2022-10-12)
+
+
+### Bug Fixes
+
+* Trying to correct the deployment workflow ([22c0944](https://github.com/jens1101/jens-and-simone/commit/22c0944d40b7a067999e6c7e0773e867348bae2e))
+
 ## [1.1.0](https://github.com/jens1101/jens-and-simone/compare/v1.0.0...v1.1.0) (2022-10-12)
 
 
