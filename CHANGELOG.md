@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/jens1101/jens-and-simone/compare/v1.0.0...v1.1.0) (2022-10-12)
+
+
+### Features
+
+* Updated GitHub workflows ([8c99233](https://github.com/jens1101/jens-and-simone/commit/8c9923312f083bbda3c700209787605f8179ae3d))
+
 ## 1.0.0 (2022-10-12)
 
 
