@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/jens1101/jens-and-simone/compare/v1.1.2...v1.1.3) (2022-10-12)
+
+
+### Bug Fixes
+
+* Updated homepage ([b1e9f47](https://github.com/jens1101/jens-and-simone/commit/b1e9f4724f86cc1bdaf3009979e7f3293605a4ee))
+
 ## [1.1.2](https://github.com/jens1101/jens-and-simone/compare/v1.1.1...v1.1.2) (2022-10-12)
 
 
