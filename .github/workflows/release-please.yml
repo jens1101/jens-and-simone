@@ -1,0 +1,30 @@
+on:
+  push:
+    branches:
+      - master
+name: release-please
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Release
+        uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: jens-and-simone
+
+      - name: Checkout
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@v3
+
+      - name: Install and Build
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy
+        if: ${{ steps.release.outputs.release_created }}
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
