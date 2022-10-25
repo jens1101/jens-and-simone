@@ -27,8 +27,10 @@ export function Header() {
 
   return (
     <header>
-      <Container>
-        <h1 className={"display-1"}>Jens and Simone</h1>
+      <Container className={"text-center"}>
+        <h1 className={"display-1 font-georgia"}>
+          Jens <span className={"font-niconne"}>and</span> Simone
+        </h1>
         <p>
           {WEDDING_DAY.toLocaleString(DateTime.DATE_FULL)} &bull;{" "}
           {WEDDING_VENUE.fullName}
@@ -39,7 +41,7 @@ export function Header() {
       <Navbar
         bg={"dark"}
         variant={"dark"}
-        expand={"md"}
+        expand={"sm"}
         sticky={"top"}
         collapseOnSelect={true}
       >
