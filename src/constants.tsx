@@ -35,7 +35,6 @@ export const APP_ROUTES: RouteObject[] = [
     handle: {
       key: "rsvp",
       title: "RSVP",
-      disabled: true,
     },
   },
 ];

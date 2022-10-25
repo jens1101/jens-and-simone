@@ -1,14 +1,11 @@
-import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
-
 export function Rsvp() {
   return (
-    <Container>
-      <h2>RSVP</h2>
-      <p>Page still under construction.</p>
-      <p>
-        <Link to={"/"}>Return home</Link>
-      </p>
-    </Container>
+    <div className={"d-flex flex-column flex-grow-1"}>
+      <iframe
+        className={"flex-grow-1"}
+        title={"Jens and Simone Wedding RSVP"}
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeeZx6yGJaceTdkq6wEr_a3znbGtvPCDeXwgbPMy-Cx8btFlA/viewform?embedded=true"
+      />
+    </div>
   );
 }

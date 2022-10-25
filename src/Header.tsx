@@ -1,6 +1,6 @@
 import { DateTime } from "luxon";
 import { useEffect, useState } from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { resolvePath, useMatches } from "react-router-dom";
 import { APP_ROUTES, WEDDING_DAY, WEDDING_VENUE } from "./constants";
@@ -36,24 +36,43 @@ export function Header() {
         <p>{timeLeft} Days To Go!</p>
       </Container>
 
-      <Navbar bg={"dark"} variant={"dark"} expand={"md"} sticky={"top"}>
-        <Container>
+      <Navbar
+        bg={"dark"}
+        variant={"dark"}
+        expand={"md"}
+        sticky={"top"}
+        collapseOnSelect={true}
+      >
+        <Container className={"justify-content-end"}>
           <Navbar.Toggle aria-controls={"basic-navbar-nav"} />
 
-          <Navbar.Collapse role={"navigation"}>
-            <Nav fill={true} variant={"pills"} activeKey={activeKey}>
-              {Array.from(APP_ROUTES).map((route) => (
-                <LinkContainer to={resolvePath(route.path ?? "")}>
-                  <Nav.Link
-                    eventKey={route.handle?.key}
-                    disabled={route.handle?.disabled ?? false}
+          <Navbar.Offcanvas placement="end">
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title>Main Menu</Offcanvas.Title>
+            </Offcanvas.Header>
+            <Offcanvas.Body>
+              <Nav
+                fill={true}
+                variant={"pills"}
+                activeKey={activeKey}
+                className={"flex-grow-1"}
+              >
+                {Array.from(APP_ROUTES).map((route) => (
+                  <LinkContainer
+                    key={route.handle?.key}
+                    to={resolvePath(route.path ?? "")}
                   >
-                    {route.handle?.title}
-                  </Nav.Link>
-                </LinkContainer>
-              ))}
-            </Nav>
-          </Navbar.Collapse>
+                    <Nav.Link
+                      eventKey={route.handle?.key}
+                      disabled={route.handle?.disabled ?? false}
+                    >
+                      {route.handle?.title}
+                    </Nav.Link>
+                  </LinkContainer>
+                ))}
+              </Nav>
+            </Offcanvas.Body>
+          </Navbar.Offcanvas>
         </Container>
       </Navbar>
     </header>
