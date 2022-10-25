@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.0](https://github.com/jens1101/jens-and-simone/compare/v1.1.3...v2.0.0) (2022-10-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Migrated to TypeScript
+
+### Features
+
+* Basic website layout ([53dd37b](https://github.com/jens1101/jens-and-simone/commit/53dd37b2e98b8a2c1b5371b523906e1f3b9a2264))
+* Migrated to TypeScript ([1ee5114](https://github.com/jens1101/jens-and-simone/commit/1ee5114b7df2f39677c9b730681c2dc7649bab8e))
+
 ## [1.1.3](https://github.com/jens1101/jens-and-simone/compare/v1.1.2...v1.1.3) (2022-10-12)
 
 
