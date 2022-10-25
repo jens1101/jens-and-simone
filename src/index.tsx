@@ -1,16 +1,17 @@
 import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter } from "react-router-dom";
-import { App } from "./App";
+import { createHashRouter, RouterProvider } from "react-router-dom";
+import { TOP_LEVEL_ROUTES } from "./constants";
+import "./main.css";
 import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const router = createHashRouter(TOP_LEVEL_ROUTES);
+const root = ReactDOM.createRoot(document.getElementById("root")!);
+
 root.render(
   <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
