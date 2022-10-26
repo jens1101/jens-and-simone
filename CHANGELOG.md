@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.0](https://github.com/jens1101/jens-and-simone/compare/v2.0.0...v2.1.0) (2022-10-26)
+
+
+### Features
+
+* Added custom fonts ([180385b](https://github.com/jens1101/jens-and-simone/commit/180385b618f617e03be2973940066d7962cf7849))
+* Added spinner to RSVP page ([534014e](https://github.com/jens1101/jens-and-simone/commit/534014ecf5248f0eb708940eb259094b1b6187e3))
+* Created RSVP form ([55b2f49](https://github.com/jens1101/jens-and-simone/commit/55b2f4947ca36f33efc001ff6a0c460d1c8a3e30))
+* Updated header to dark theme ([fc93eea](https://github.com/jens1101/jens-and-simone/commit/fc93eea06855ac13d4b57f43298416381217a299))
+
 ## [2.0.0](https://github.com/jens1101/jens-and-simone/compare/v1.1.3...v2.0.0) (2022-10-25)
 
 
