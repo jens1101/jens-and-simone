@@ -26,7 +26,7 @@ export function Header() {
   }, []);
 
   return (
-    <header>
+    <header className={"bg-dark text-light"}>
       <Container className={"text-center"}>
         <h1 className={"display-1 font-georgia"}>
           Jens <span className={"font-niconne"}>and</span> Simone
