@@ -1,8 +1,9 @@
 import { DateTime } from "luxon";
 import { useEffect, useState } from "react";
-import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { Col, Container, Nav, Navbar, Offcanvas, Row } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { resolvePath, useMatches } from "react-router-dom";
+import background from "./assets/images/daisies-background.svg";
 import { APP_ROUTES, WEDDING_DAY, WEDDING_VENUE } from "./constants";
 import { getDaysLeft } from "./helpers";
 
@@ -28,7 +29,16 @@ export function Header() {
   return (
     <header className={"bg-dark text-light"}>
       <Container className={"text-center"}>
-        <h1 className={"display-1 font-georgia"}>
+        <Row className={"justify-content-center"}>
+          <Col xs={10} sm={9} md={8} lg={6}>
+            <img
+              src={background}
+              alt={"Daisies background"}
+              className={"w-100"}
+            />
+          </Col>
+        </Row>
+        <h1 className={"display-1 font-georgia d-none d-sm-block"}>
           Jens <span className={"font-niconne"}>and</span> Simone
         </h1>
         <p>
@@ -45,7 +55,13 @@ export function Header() {
         sticky={"top"}
         collapseOnSelect={true}
       >
-        <Container className={"justify-content-end"}>
+        <Container className={"justify-content-center"}>
+          <Navbar.Brand className={"d-block d-sm-none"}>
+            <h1 className={"display-3 font-georgia my-0"}>
+              Jens <span className={"font-niconne"}>and</span> Simone
+            </h1>
+          </Navbar.Brand>
+
           <Navbar.Toggle aria-controls={"basic-navbar-nav"} />
 
           <Navbar.Offcanvas placement="end">
