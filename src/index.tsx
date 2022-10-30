@@ -6,7 +6,7 @@ import { TOP_LEVEL_ROUTES } from "./constants";
 import "./main.css";
 import reportWebVitals from "./reportWebVitals";
 
-const router = createHashRouter(TOP_LEVEL_ROUTES);
+const router = createHashRouter(Object.values(TOP_LEVEL_ROUTES));
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 
 root.render(

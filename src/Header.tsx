@@ -4,7 +4,7 @@ import { Col, Container, Nav, Navbar, Offcanvas, Row } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { resolvePath, useMatches } from "react-router-dom";
 import background from "./assets/images/daisies-background.svg";
-import { APP_ROUTES, WEDDING_DAY, WEDDING_VENUE } from "./constants";
+import { APP_ROUTES, WEDDING_DAY } from "./constants";
 import { getDaysLeft } from "./helpers";
 
 export function Header() {
@@ -42,10 +42,9 @@ export function Header() {
           Jens <span className={"font-niconne"}>and</span> Simone
         </h1>
         <p>
-          {WEDDING_DAY.toLocaleString(DateTime.DATE_FULL)} &bull;{" "}
-          {WEDDING_VENUE.fullName}
+          {WEDDING_DAY.toLocaleString(DateTime.DATE_FULL)} &bull; {timeLeft}{" "}
+          Days To Go!
         </p>
-        <p>{timeLeft} Days To Go!</p>
       </Container>
 
       <Navbar
@@ -75,7 +74,7 @@ export function Header() {
                 activeKey={activeKey}
                 className={"flex-grow-1"}
               >
-                {Array.from(APP_ROUTES).map((route) => (
+                {Object.values(APP_ROUTES).map((route) => (
                   <LinkContainer
                     key={route.handle?.key}
                     to={resolvePath(route.path ?? "")}

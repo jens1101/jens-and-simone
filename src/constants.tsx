@@ -20,8 +20,8 @@ export const WEDDING_VENUE = {
   fullName: "55 Tulbagh, Glen Marais, Kempton Park",
 };
 
-export const APP_ROUTES: RouteObject[] = [
-  {
+export const APP_ROUTES: Record<string, RouteObject> = {
+  home: {
     index: true,
     element: <Home />,
     handle: {
@@ -29,7 +29,7 @@ export const APP_ROUTES: RouteObject[] = [
       title: "Home",
     },
   },
-  {
+  rsvp: {
     path: "rsvp",
     element: <Rsvp />,
     handle: {
@@ -37,12 +37,12 @@ export const APP_ROUTES: RouteObject[] = [
       title: "RSVP",
     },
   },
-];
+};
 
-export const TOP_LEVEL_ROUTES: RouteObject[] = [
-  {
+export const TOP_LEVEL_ROUTES: Record<string, RouteObject> = {
+  app: {
     path: "/",
     element: <App />,
-    children: APP_ROUTES,
+    children: Object.values(APP_ROUTES),
   },
-];
+};
