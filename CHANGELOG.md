@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.2.0](https://github.com/jens1101/jens-and-simone/compare/v2.1.0...v2.2.0) (2022-10-30)
+
+
+### Features
+
+* Added background to header ([34ec223](https://github.com/jens1101/jens-and-simone/commit/34ec223bf2a4827e9158df865a2594944892c668))
+* Refined home screen ([1f9c8b2](https://github.com/jens1101/jens-and-simone/commit/1f9c8b2951b5843f8b0591196161d625de0cfe4e))
+
 ## [2.1.0](https://github.com/jens1101/jens-and-simone/compare/v2.0.0...v2.1.0) (2022-10-26)
 
 
