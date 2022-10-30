@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.a623e10d.css",
-    "main.js": "/static/js/main.9403199d.js",
+    "main.js": "/static/js/main.e55d3f25.js",
     "static/js/496.277dea3b.chunk.js": "/static/js/496.277dea3b.chunk.js",
+    "static/media/home-backgrund.webp": "/static/media/home-backgrund.af4619b21cee44719230.webp",
     "static/media/Georgia.woff": "/static/media/Georgia.b59868d9c0988e9d9df9.woff",
     "static/media/Georgia.woff2": "/static/media/Georgia.e7679e6249a28e806a9b.woff2",
     "static/media/Georgia-BoldItalic.woff": "/static/media/Georgia-BoldItalic.9124d3d873fa238af635.woff",
@@ -13,13 +14,14 @@
     "static/media/Georgia-Bold.woff2": "/static/media/Georgia-Bold.dbf34d753518a1e12645.woff2",
     "static/media/Niconne-Regular.woff": "/static/media/Niconne-Regular.f257cd2082e24276911a.woff",
     "static/media/Niconne-Regular.woff2": "/static/media/Niconne-Regular.0cc76d4888e08e0c0dfe.woff2",
+    "static/media/daisies-background.svg": "/static/media/daisies-background.05b803a64b1bd278f2ad80418c47e713.svg",
     "index.html": "/index.html",
     "main.a623e10d.css.map": "/static/css/main.a623e10d.css.map",
-    "main.9403199d.js.map": "/static/js/main.9403199d.js.map",
+    "main.e55d3f25.js.map": "/static/js/main.e55d3f25.js.map",
     "496.277dea3b.chunk.js.map": "/static/js/496.277dea3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a623e10d.css",
-    "static/js/main.9403199d.js"
+    "static/js/main.e55d3f25.js"
   ]
 }
