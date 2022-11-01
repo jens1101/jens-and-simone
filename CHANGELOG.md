@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.0](https://github.com/jens1101/jens-and-simone/compare/v2.2.0...v2.3.0) (2022-11-01)
+
+
+### Features
+
+* Added information page ([d8247a5](https://github.com/jens1101/jens-and-simone/commit/d8247a57a23acf51fe7fef6047cbb9dbdc311db6))
+* Removed footer ([da1c58a](https://github.com/jens1101/jens-and-simone/commit/da1c58a81db1e33a9358d29e250a72c4fa32aa4e))
+
 ## [2.2.0](https://github.com/jens1101/jens-and-simone/compare/v2.1.0...v2.2.0) (2022-10-30)
 
 
