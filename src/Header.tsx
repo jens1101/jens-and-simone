@@ -27,7 +27,7 @@ export function Header() {
   }, []);
 
   return (
-    <header className={"bg-dark text-light"}>
+    <header className={"bg-dark text-light shadow"} style={{ zIndex: 1 }}>
       <Container className={"text-center"}>
         <Row className={"justify-content-center"}>
           <Col xs={10} sm={9} md={8} lg={6}>

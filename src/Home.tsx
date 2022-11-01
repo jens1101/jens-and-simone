@@ -1,8 +1,9 @@
+import { DateTime } from "luxon";
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link, resolvePath } from "react-router-dom";
 import background from "./assets/images/home-backgrund.webp";
-import { APP_ROUTES, WEDDING_VENUE } from "./constants";
+import { APP_ROUTES, WEDDING_DAY, WEDDING_VENUE } from "./constants";
 
 export function Home() {
   return (
@@ -10,7 +11,7 @@ export function Home() {
       <Container
         className={"flex-grow-1 d-flex flex-column justify-content-center"}
         style={{
-          background: `url("${background}") top center/cover`,
+          background: `url("${background}") no-repeat center 15%/cover`,
         }}
       >
         <Row className={"justify-content-center"}>
@@ -20,7 +21,7 @@ export function Home() {
               style={{ "--bs-bg-opacity": "0.8" } as React.CSSProperties}
             >
               <Card.Body>
-                <Card.Title className={"font-georgia display-5 text-uppercase"}>
+                <Card.Title className={"font-georgia display-6 text-uppercase"}>
                   We're getting
                   <br />
                   married!
@@ -28,7 +29,13 @@ export function Home() {
                 <Card.Subtitle className="font-georgia text-muted mb-3">
                   We can't wait to share our special day with you
                 </Card.Subtitle>
-                <Card.Text>{WEDDING_VENUE.fullName}</Card.Text>
+                <Card.Text>
+                  <p>
+                    {WEDDING_VENUE.address}
+                    <br />
+                    {WEDDING_DAY.toLocaleString(DateTime.DATETIME_MED)}
+                  </p>
+                </Card.Text>
               </Card.Body>
               <Card.Footer className="text-muted">
                 <Row>
@@ -43,11 +50,11 @@ export function Home() {
                   </Col>
                   <Col xs={12} sm={6}>
                     <Link
-                      to={""}
+                      to={resolvePath(APP_ROUTES.information.path || "")}
                       className="btn btn-outline-primary w-100"
                       role="button"
                     >
-                      Venue Information
+                      More Information
                     </Link>
                   </Col>
                 </Row>
