@@ -9,7 +9,7 @@ export const WEDDING_DAY: DateTime = DateTime.fromObject(
   {
     year: 2023,
     month: 5,
-    day: 6,
+    day: 5,
     hour: 15,
     minute: 30,
   },
