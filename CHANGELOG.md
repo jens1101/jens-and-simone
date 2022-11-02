@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.4.0](https://github.com/jens1101/jens-and-simone/compare/v2.3.0...v2.4.0) (2022-11-02)
+
+
+### Features
+
+* Updated assets and colours of app ([0de5045](https://github.com/jens1101/jens-and-simone/commit/0de50459c8c9227f3748feaa5cac847c6967cb50))
+
+
+### Bug Fixes
+
+* Moved contact details above the fold ([97333c5](https://github.com/jens1101/jens-and-simone/commit/97333c55d506a83cbf09c1c744c7f8d012f55db3))
+
 ## [2.3.0](https://github.com/jens1101/jens-and-simone/compare/v2.2.0...v2.3.0) (2022-11-01)
 
 
