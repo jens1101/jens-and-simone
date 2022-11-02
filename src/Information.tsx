@@ -44,6 +44,37 @@ export function Information() {
       </section>
 
       <section className={"my-3"}>
+        <h2>Contact Details</h2>
+
+        <dl>
+          <dt>Contact Numbers</dt>
+          <dd>
+            <p>
+              We decided <em>not</em> to post our private numbers publicly to
+              avoid unwanted spam calls.
+            </p>
+            <p>
+              Please refer to your RSVP card that you should have received
+              together with your invitation to obtain our personal contact
+              details.
+            </p>
+            <p>Alternatively you can always email us.</p>
+          </dd>
+
+          <dt>Email</dt>
+          <dd>
+            <a
+              href={`mailto:${CONTACT_DETAILS.email}`}
+              target={"_blank"}
+              rel={"noreferrer"}
+            >
+              {CONTACT_DETAILS.email}
+            </a>
+          </dd>
+        </dl>
+      </section>
+
+      <section className={"my-3"}>
         <h2>Venue Information</h2>
 
         <Row>
@@ -168,37 +199,6 @@ export function Information() {
             </a>
           </li>
         </ul>
-      </section>
-
-      <section className={"my-3"}>
-        <h2>Contact Details</h2>
-
-        <dl>
-          <dt>Contact Numbers</dt>
-          <dd>
-            <p>
-              We decided <em>not</em> to post our private numbers publicly to
-              avoid unwanted spam calls.
-            </p>
-            <p>
-              Please refer to your RSVP card that you should have received
-              together with your invitation to obtain our personal contact
-              details.
-            </p>
-            <p>Alternatively you can always email us.</p>
-          </dd>
-
-          <dt>Email</dt>
-          <dd>
-            <a
-              href={`mailto:${CONTACT_DETAILS.email}`}
-              target={"_blank"}
-              rel={"noreferrer"}
-            >
-              {CONTACT_DETAILS.email}
-            </a>
-          </dd>
-        </dl>
       </section>
     </Container>
   );
