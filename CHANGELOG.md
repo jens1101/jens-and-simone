@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.1](https://github.com/jens1101/jens-and-simone/compare/v2.4.0...v2.4.1) (2022-11-02)
+
+
+### Bug Fixes
+
+* Corrected wedding date ([cc25581](https://github.com/jens1101/jens-and-simone/commit/cc2558174a7f034563615912558d0d99ea5861f5))
+
 ## [2.4.0](https://github.com/jens1101/jens-and-simone/compare/v2.3.0...v2.4.0) (2022-11-02)
 
 
