@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.1](https://github.com/jens1101/jens-and-simone/compare/v2.5.0...v2.5.1) (2022-11-05)
+
+
+### Bug Fixes
+
+* Updated RSVP form height ([18b5218](https://github.com/jens1101/jens-and-simone/commit/18b521864de9a66c7b252935a8285870f4d57ac6))
+
 ## [2.5.0](https://github.com/jens1101/jens-and-simone/compare/v2.4.1...v2.5.0) (2022-11-04)
 
 
