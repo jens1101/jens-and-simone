@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4552083"
-     inkscape:cx="125.4116"
-     inkscape:cy="-272.12598"
+     inkscape:cx="166.64281"
+     inkscape:cy="277.62349"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -584,7 +584,9 @@
            style="font-style:italic;font-size:3.43958px;text-align:start;text-anchor:start;stroke-width:0.264583"
            x="12.627748"
            y="33.497894"
-           id="tspan1570">on jens-and-simone.com</tspan></text><text
+           id="tspan1570"><tspan
+   style="font-style:normal"
+   id="tspan480">on </tspan>jens-and-simone.com</tspan></text><text
          xml:space="preserve"
          style="font-size:5.29167px;line-height:1.25;font-family:Georgia;-inkscape-font-specification:Georgia;text-align:start;text-anchor:start;display:inline;stroke-width:0.264583"
          x="12.444814"
