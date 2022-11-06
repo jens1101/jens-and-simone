@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.2](https://github.com/jens1101/jens-and-simone/compare/v2.5.1...v2.5.2) (2022-11-06)
+
+
+### Bug Fixes
+
+* Updated robots.txt ([e8b6df0](https://github.com/jens1101/jens-and-simone/commit/e8b6df0885e0422c1746378ade99d5c203f9d8c4))
+
 ## [2.5.1](https://github.com/jens1101/jens-and-simone/compare/v2.5.0...v2.5.1) (2022-11-05)
 
 
