@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.3](https://github.com/jens1101/jens-and-simone/compare/v2.5.2...v2.5.3) (2022-11-10)
+
+
+### Bug Fixes
+
+* Used meta tag to prevent indexing ([bdac5ae](https://github.com/jens1101/jens-and-simone/commit/bdac5aef5426173d2d189579b249f4faa0748700))
+
 ## [2.5.2](https://github.com/jens1101/jens-and-simone/compare/v2.5.1...v2.5.2) (2022-11-06)
 
 
